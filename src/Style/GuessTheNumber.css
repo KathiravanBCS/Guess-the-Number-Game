@@ -1,0 +1,72 @@
+/* Global body styling with centered content and background color */
+body {
+    font-family: "arial", sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #2d3748;
+}
+
+/* Game container styling with padding, rounded corners, and shadow */
+.game-container {
+    background-color: #ffffff;
+    padding: 25px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+}
+
+/* Game title styling with font size and color */
+.game-title {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #4a5568;
+}
+
+/* Base styling for game messages */
+.game-message {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+/* Info message styling with blue color */
+.game-message.info {
+    color: #3182ce;
+}
+
+/* Success message styling with green color and bold text */
+.game-message.success {
+    color: #38a168;
+    font-weight: bold;
+}
+
+/* Failure message styling with red color and bold text */
+.game-message.failure {
+    color: #e53e3e;
+    font-weight: bold;
+}
+
+/* Input field styling with padding, border, and focus effect */
+.game-input {
+    font-size: 15px;
+    padding: 8px;
+    width: 90%;
+    margin-bottom: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.game-input:focus {
+    border-color: #3182ce; /* Changes border color on focus */
+}
+
+/* Button styling with font size */
+.game-button {
+    font-size: 15px;
+}
